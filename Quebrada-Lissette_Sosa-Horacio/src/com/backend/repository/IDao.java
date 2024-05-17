@@ -1,0 +1,8 @@
+package com.backend.repository;
+
+public interface IDao<T> {
+
+    //DEFINIR LAS FUNCIONES QUE SE VAN A EJECUTAR EN LA DB
+    //DENTRO DEL PAQUETE impl SE EJECUTAN LAS IMPLEMENTACIONES DE ESTA INTERFACE
+
+}
