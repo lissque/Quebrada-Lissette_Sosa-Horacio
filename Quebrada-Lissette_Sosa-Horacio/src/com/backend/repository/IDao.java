@@ -1,8 +1,10 @@
 package com.backend.repository;
 
+import java.util.List;
+
 public interface IDao<T> {
 
-    //DEFINIR LAS FUNCIONES QUE SE VAN A EJECUTAR EN LA DB
-    //DENTRO DEL PAQUETE impl SE EJECUTAN LAS IMPLEMENTACIONES DE ESTA INTERFACE
+    T registrar (T t);
+    List<T> listarTodos();
 
 }

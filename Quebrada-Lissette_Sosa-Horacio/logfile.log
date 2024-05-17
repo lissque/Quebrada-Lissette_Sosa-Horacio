@@ -1,0 +1,50 @@
+[2024-05-16 20:03:21] [ ERROR] [OdontologoDaoH2:43] La cantidad de columnas no coincide
+Column count does not match; SQL statement:
+INSERT INTO ODONTOLOGO (NUMERO_MATRICULA, NOMBRE, APELLIDO) VALUES (?, ?, ?), Statement.RETURN_GENERATED_KEYS [21002-224]
+[2024-05-16 20:03:21] [ INFO ] [OdontologoDaoH2:48] Ha ocurrido un problema
+[2024-05-16 20:03:21] [ ERROR] [OdontologoDaoH2:49] La cantidad de columnas no coincide
+Column count does not match; SQL statement:
+INSERT INTO ODONTOLOGO (NUMERO_MATRICULA, NOMBRE, APELLIDO) VALUES (?, ?, ?), Statement.RETURN_GENERATED_KEYS [21002-224]
+[2024-05-16 20:03:21] [ ERROR] [OdontologoDaoH2:92] Tabla "ODONTOLOGOS" no encontrada
+Table "ODONTOLOGOS" not found; SQL statement:
+SELECT * FROM ODONTOLOGOS [42102-224]
+[2024-05-16 20:03:21] [ INFO ] [OdontologoDaoH2:105] Listado de todos los odontologos: []
+[2024-05-16 20:07:03] [ INFO ] [OdontologoDaoH2:44] Se ha registrado el odontologo: Id: 3 - Numero Matricula 0 - Nombre: Nombre - Apellido: Apellido
+[2024-05-16 20:07:03] [ ERROR] [OdontologoDaoH2:96] Tabla "ODONTOLOGOS" no encontrada
+Table "ODONTOLOGOS" not found; SQL statement:
+SELECT * FROM ODONTOLOGOS [42102-224]
+[2024-05-16 20:07:03] [ INFO ] [OdontologoDaoH2:109] Listado de todos los odontologos: []
+[2024-05-16 20:07:34] [ INFO ] [OdontologoDaoH2:109] Listado de todos los odontologos: [Id: null - Numero Matricula 1 - Nombre: 123 - Apellido: HORACIO, Id: null - Numero Matricula 2 - Nombre: 456 - Apellido: LISSETTE, Id: null - Numero Matricula 3 - Nombre: 0 - Apellido: Nombre]
+[2024-05-16 20:20:25] [ ERROR] [OdontologoDaoH2:47] La base de datos puede que ya esté siendo utilizada: "C:/Users/lissq/QuebradaLissetteSosaHoracio.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/lissq/QuebradaLissetteSosaHoracio.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-224]
+[2024-05-16 20:20:25] [ ERROR] [OdontologoDaoH2:64] No se pudo cerrar la conexion: null
+[2024-05-16 20:20:25] [ ERROR] [OdontologoDaoH2:97] La base de datos puede que ya esté siendo utilizada: "C:/Users/lissq/QuebradaLissetteSosaHoracio.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/lissq/QuebradaLissetteSosaHoracio.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-224]
+[2024-05-16 20:20:25] [ ERROR] [OdontologoDaoH2:105] Ha ocurrido un error al intentar cerrar la bd. null
+[2024-05-16 20:20:25] [ INFO ] [OdontologoDaoH2:110] Listado de todos los odontologos: []
+[2024-05-16 20:20:44] [ INFO ] [OdontologoDaoH2:44] Se ha registrado el odontologo: Id: 4 - Numero Matricula 789 - Nombre: Nombre - Apellido: Apellido
+[2024-05-16 20:20:44] [ INFO ] [OdontologoDaoH2:110] Listado de todos los odontologos: [Id: 1 - Numero Matricula 123 - Nombre: HORACIO - Apellido: SOSA, Id: 2 - Numero Matricula 456 - Nombre: LISSETTE - Apellido: QUEBRADA, Id: 3 - Numero Matricula 0 - Nombre: Nombre - Apellido: Apellido, Id: 4 - Numero Matricula 789 - Nombre: Nombre - Apellido: Apellido]
+[2024-05-16 20:23:23] [ INFO ] [OdontologoDaoH2:34] odontologo.getNumeroMatricula(): 789
+[2024-05-16 20:23:23] [ INFO ] [OdontologoDaoH2:45] Se ha registrado el odontologo: Id: 3 - Numero Matricula 789 - Nombre: LUISA - Apellido: FERNANDEZ
+[2024-05-16 20:23:46] [ INFO ] [OdontologoDaoH2:114] Listado de todos los odontologos: [Id: 1 - Numero Matricula 123 - Nombre: HORACIO - Apellido: SOSA, Id: 2 - Numero Matricula 456 - Nombre: LISSETTE - Apellido: QUEBRADA, Id: 3 - Numero Matricula 789 - Nombre: LUISA - Apellido: FERNANDEZ]
+[2024-05-16 20:25:24] [ INFO ] [OdontologoDaoH2:114] Listado de todos los odontologos: [Id: 1 - Numero Matricula 123 - Nombre: HORACIO - Apellido: SOSA, Id: 2 - Numero Matricula 456 - Nombre: LISSETTE - Apellido: QUEBRADA, Id: 3 - Numero Matricula 789 - Nombre: LUISA - Apellido: FERNANDEZ]
+[2024-05-16 20:26:31] [ INFO ] [OdontologoDaoH2:115] Listado de todos los odontologos: [Id: 1 - Numero Matricula 123 - Nombre: HORACIO - Apellido: SOSA, Id: 2 - Numero Matricula 456 - Nombre: LISSETTE - Apellido: QUEBRADA, Id: 3 - Numero Matricula 789 - Nombre: LUISA - Apellido: FERNANDEZ]
+[2024-05-16 20:56:33] [ INFO ] [OdontologoDao:24] Odontologo agregado: Id: 1 - Numero Matricula 789 - Nombre: LAURA - Apellido: LOPEZ
+[2024-05-16 20:56:50] [ INFO ] [OdontologoDao:36] Listado de todos los odontologos: []
+[2024-05-16 20:57:33] [ INFO ] [OdontologoDao:36] Listado de todos los odontologos: []
+[2024-05-16 20:57:33] [ INFO ] [OdontologoDao:24] Odontologo agregado: Id: 1 - Numero Matricula 789 - Nombre: LAURA - Apellido: LOPEZ
+[2024-05-16 20:58:30] [ INFO ] [OdontologoDao:36] Listado de todos los odontologos: []
+[2024-05-16 21:03:30] [ INFO ] [OdontologoDao:24] Odontologo agregado: Id: 1 - Numero Matricula 789 - Nombre: LAURA - Apellido: LOPEZ
+[2024-05-16 21:03:30] [ INFO ] [OdontologoDao:36] Listado de todos los odontologos: [Id: 1 - Numero Matricula 789 - Nombre: LAURA - Apellido: LOPEZ]
+[2024-05-16 21:03:51] [ INFO ] [OdontologoDao:24] Odontologo agregado: Id: 1 - Numero Matricula 789 - Nombre: LAURA - Apellido: LOPEZ
+[2024-05-16 21:03:51] [ INFO ] [OdontologoDao:36] Listado de todos los odontologos: [Id: 1 - Numero Matricula 789 - Nombre: LAURA - Apellido: LOPEZ]
+[2024-05-16 21:09:47] [ INFO ] [OdontologoDao:24] Odontologo agregado: Id: 1 - Numero Matricula 789 - Nombre: LAURA - Apellido: LOPEZ
+[2024-05-16 21:09:47] [ INFO ] [OdontologoDao:40] Odontologos consultados... 
+[2024-05-16 21:09:47] [ INFO ] [OdontologoDao:47] Listado de todos los odontologos: [Id: 1 - Numero Matricula 789 - Nombre: LAURA - Apellido: LOPEZ]
+[2024-05-16 21:10:37] [ INFO ] [OdontologoDao:40] Odontologos consultados... 
+[2024-05-16 21:10:37] [ INFO ] [OdontologoDao:47] Listado de todos los odontologos: []
+[2024-05-16 21:10:43] [ INFO ] [OdontologoDaoH2:45] Se ha registrado el odontologo: Id: 4 - Numero Matricula 789 - Nombre: LUISA - Apellido: FERNANDEZ
+[2024-05-16 21:10:44] [ INFO ] [OdontologoDao:40] Odontologos consultados... 
+[2024-05-16 21:10:44] [ INFO ] [OdontologoDao:47] Listado de todos los odontologos: []
+[2024-05-16 21:10:44] [ INFO ] [OdontologoDao:24] Odontologo agregado: Id: 1 - Numero Matricula 789 - Nombre: LAURA - Apellido: LOPEZ
+[2024-05-16 21:10:44] [ INFO ] [OdontologoDaoH2:111] Listado de todos los odontologos: [Id: 1 - Numero Matricula 123 - Nombre: HORACIO - Apellido: SOSA, Id: 2 - Numero Matricula 456 - Nombre: LISSETTE - Apellido: QUEBRADA, Id: 3 - Numero Matricula 789 - Nombre: LUISA - Apellido: FERNANDEZ, Id: 4 - Numero Matricula 789 - Nombre: LUISA - Apellido: FERNANDEZ]
